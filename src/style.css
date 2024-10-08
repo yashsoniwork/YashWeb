@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+@tailwind base;
+@layer base {
+    .btn-anime {
+        @apply transition-all duration-300 ease-out p-1 text-sm px-5 bg-blue-200 rounded-lg border-2 border-blue-300;
+    }
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+.scrolling::-webkit-scrollbar {
+    display: none;
+}
+
+.doslide:disabled {
+    color: gray;
+}
+@tailwind components;
+
+@tailwind utilities;
