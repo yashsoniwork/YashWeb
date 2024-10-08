@@ -5,7 +5,7 @@
     "scripts": {
         "build:css": " npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch ",
         "build": "vite build",
-        "deploy": "npm run build && gh-pages -d dist"
+        "deploy": "npm run build && gh-pages -d src./index.html"
     },
     "keywords": [],
     "author": "",
