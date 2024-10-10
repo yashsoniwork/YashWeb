@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./yash.jpg" type="image/png">
     <link rel="stylesheet" href="../build/output.css">
+    <link rel="stylesheet" href="../dist/output.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
     <!-- for bootsrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
@@ -24,18 +25,18 @@
         </a>
         <div class="text text-black fixed end-16 bottom-5 opacity-70 z-10">Need help?</div>
         <nav class="flex justify-center">
-            <pre class="logo mx-2 mt-7  tracking-tighter lg:tracking-normal lg:text-[1.7rem] text-[1rem] font-bold">Yash Soni / <br>         / Website Developer <pre />
+            <pre class="logo mx-2 mt-7  tracking-tighter lg:tracking-normal lg:text-[1.7rem] text-[1rem] font-bold">Yash Soni / <br>         / Website Developer
+                <pre />
         </nav>
         <section class="flex w-full flex-col lg:flex-row lg:mt-8">
             <!-- Left div -->
-            <div class="left shadow-lg shadow-orange-400 bg-orange-100 h-[40vh] w-[50%] mx-2 rounded lg:h-[60vh] lg:w-[30%] lg:mt-[-1.5rem] ">
+            <div
+                class="left shadow-lg shadow-orange-400 bg-orange-100 h-[40vh] w-[50%] mx-2 rounded lg:h-[60vh] lg:w-[30%] lg:mt-[-1.5rem] ">
                 <div
-                    class="middle shadow-gray-400  bg-blue-200 mt-8 h-[30vh] w-[90%] md:w-[60%] md:relative md:left-28 lg:left-0  transform translate-x-[50%] rounded shadow-lg lg:mt-14 lg:h-[45vh] lg:w-[60%]  lg:translate-x-[110%] flex flex-col justify-center text-center items-center  text-sm xsm:text-xs"> 
-                    <img class="rounded-full border-1 relative bottom-[2.2rem] shadow-black shadow-md border-white lg:w-[7vw]  xsm:w-[21vw] h-auto" src="./yash.jpg" alt="">
-                    <p class="mt-2 flex justify-center relative bottom-[2.2rem]"> Name : Yash Soni  <br>
-                    Age: 22y
-
-                    </p>
+                    class="middle shadow-gray-400  bg-blue-200 mt-8 h-[30vh] w-[90%] md:w-[60%] md:relative md:left-28 lg:left-0  transform translate-x-[50%] rounded shadow-lg lg:mt-14 lg:h-[45vh] lg:w-[60%]  lg:translate-x-[110%] flex flex-col justify-center text-center items-center  text-sm xsm:text-xs">
+                    <img class="rounded-full border-1 relative bottom-[2.2rem] shadow-black shadow-md border-white lg:w-[7vw]  xsm:w-[21vw] h-auto"
+                        src="./yash.jpg" alt="">
+                    <p class="mt-2 flex justify-center relative bottom-[2.2rem]"> Name : Yash Soni <br> Age: 22y </p>
                 </div>
             </div>
             <div
@@ -45,43 +46,94 @@
                 <!-- <div class="buttons mt-3"><button class="btn-anime hover:text-blue-600">click me</button> <button
                         class="btn-anime bg-black text-white border-2 border-white">click me</button>
                 </div> -->
-                <p class="intro xsm:text-center lg:text-start mt-4 text-[13px] w-[80vw] opacity-75 lg:w-[40vw] lg:text-lg"> I am a
-                    full stack website developer with expertise in Python and Java. Along with web development, I have
-                    near-professional skills in video editing. Currently, I am planning to study Machine Learning and
-                    Artificial Intelligence to expand my knowledge further. </p>
+                <p
+                    class="intro xsm:text-center lg:text-start mt-4 text-[13px] w-[80vw] opacity-75 lg:w-[40vw] lg:text-lg">
+                    I am a full stack website developer with expertise in Python and Java. Along with web development, I
+                    have near-professional skills in video editing. Currently, I am planning to study Machine Learning
+                    and Artificial Intelligence to expand my knowledge further. </p>
             </div>
+        </section>
+        <section class="mt-10">
+            <h2 class="flex justify-center lg:mt-32">Work Flow</h2>
+            <!-- For mobile only -->
+            <div
+                class="left-c lg:hidden rendered h-[40vh] w-[40vh] border-2 shadow-lg mx-3 flex lg:flex-col overflow-hidden relative">
+                <div class="left-c w-full h-full overflow-scroll flex">
+                    <div class="cylander w-[30%] h-[170%] mx-3 bg-gray-300">
+                        <div
+                            class="dot1 w-12 h-12 relative right-[5px] top-[6rem] rounded-full flex justify-center items-center bg-gray-300">
+                            01</div>
+                        <div
+                            class="dot1 w-12 h-12 relative right-[5px] top-[11rem] rounded-full flex justify-center items-center bg-gray-300">
+                            02</div>
+                        <div
+                            class="dot1 w-12 h-12 relative right-[5px] top-[18rem] rounded-full flex justify-center items-center bg-gray-300">
+                            03</div>
+                    </div>
+                    <div class="right w-full flex flex-col justify-center">
+                        <div class="content1 leading-3 text-[17px] relative top-[9vh] flex">"First, we will discuss your
+                            website." </div>
+                        <div class="content1 leading-3 text-[17px] relative top-[25vh] flex flex-col">"Make website
+                            Wireframe" <img class=" mt-2 w-14 h-[11vh]" src="./phone.png" alt=""></div>
+                        <div class="content1 leading-3 text-[17px] relative top-[32vh] flex">"Then, we will conduct user
+                            testing." </div>
+                    </div>
+                </div>
+            </div>
+            <!-- For laptop only -->
+            <section class="hidden lg:block mt-13">
+                <div class="mx-[20vw] flex flex-row">
+                    <div class="left">
+                        <div class="box h-[80vh] w-[80%] bg-gray-300">
+                            <div class="dot1 bg-gray-300 rounded-full h-[18vh] w-[18vh] relative right-[15px]"></div>
+                            <div
+                                class="dot1 bg-gray-300 top-[9vh] rounded-full h-[18vh] w-[18vh] relative right-[15px]">
+                            </div>
+                            <div
+                                class="dot1 bg-gray-300 top-[26vh] rounded-full h-[18vh] w-[18vh] relative right-[15px]">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right mt-7 mx-24">
+                        <div class="content1">"First, we will discuss your website."</div>
+                        <div class="content1 relative top-[25vh] flex flex-row">"Make website Wireframe" <img class="relative left-14 bottom-8 h-[33vh]" src="./laptop.png" alt=""></div>
+                        <div class="content1 relative top-[32vh]">"Then, we will conduct user testing.- to test UX"</div>
+                    </div>
+                </div>
+            </section>
         </section>
         <h1 class="flex justify-center mt-[12vh] ">Why choose me</h1>
         <div class="container3 flex flex-col lg:flex-row lg:mx-[6rem]">
-            <section class="mt-11">
+            <section class="mt-11 rendered">
                 <img class="lg:w-[37rem]" src="./icon.png" alt="">
             </section>
-            <section class="mt-[4rem] mx-8 lg:left-10 lg:flex-1">
+            <section class="mt-[4rem] mx-8 lg:left-10 lg:flex-1 rendered">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="bg-blue-200 shadow-lg rounded-xl p-4">
                                 <h6 class="flex justify-center mt-6">Rahul Sharma</h6>
-                                <p class="m-3 text-center xsm:text-sm lg:text-lg">"Yash did an incredible job on my website! His skills
-                                    and creativity really brought my vision to life. He was easy to communicate with and
-                                    delivered everything on time. I highly recommend his services! Love his work! Thanku Again "</p>
+                                <p class="m-3 text-center xsm:text-sm lg:text-lg">"Yash did an incredible job on my
+                                    website! His skills and creativity really brought my vision to life. He was easy to
+                                    communicate with and delivered everything on time. I highly recommend his services!
+                                    Love his work! Thanku Again "</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="bg-blue-200 shadow-lg rounded-xl p-4">
                                 <h6 class="flex justify-center mt-6">Anjali Verma</h6>
-                                <p class="m-3 text-center xsm:text-sm lg:text-lg">"I had an excellent experience working with Yash! He
-                                    transformed my ideas into a stunning website with great attention to detail. His
-                                    professionalism and creativity were impressive. I would definitely choose him
-                                    again!" </p>
+                                <p class="m-3 text-center xsm:text-sm lg:text-lg">"I had an excellent experience working
+                                    with Yash! He transformed my ideas into a stunning website with great attention to
+                                    detail. His professionalism and creativity were impressive. I would definitely
+                                    choose him again!" </p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="bg-blue-200 shadow-lg rounded-xl p-4">
                                 <h6 class="flex justify-center mt-6">Emily Johnson</h6>
-                                <p class="m-3 text-center xsm:text-sm lg:text-lg">"Working with Yash was a fantastic experience! He
-                                    took my ideas and turned them into a beautiful, functional website. His
-                                    communication was clear and timely, making the whole process smooth. I highly
+                                <p class="m-3 text-center xsm:text-sm lg:text-lg">"Working with Yash was a fantastic
+                                    experience! He took my ideas and turned them into a beautiful, functional website.
+                                    His communication was clear and timely, making the whole process smooth. I highly
                                     recommend his services!"</p>
                             </div>
                         </div>
@@ -89,41 +141,42 @@
                 </div>
             </section>
         </div>
-        <h2 class="flex justify-center text-center mx-3 mt-[20vh]">"Future Skills for Next-Gen Web Development"</h2>
+        <h2 class="flex justify-center text-center mx-3 mt-[20vh] rendered">"Future Skills for Next-Gen Web Development"
+        </h2>
         <section class="flex flex-col lg:flex-row lg:justify-around">
             <img class="lg:w-[21vw]" src="./future.jpg" alt="">
             <div class="flex flex-col justify-center items-start px-4">
                 <div class="relative mt-4">
                     <!-- Step 1 -->
-                    <div class="flex mb-4">
+                    <div class="flex mb-4 rendery">
                         <div
                             class="rounded-full bg-blue-500 w-10 h-10 flex items-center justify-center text-white text-base">
                             01 </div>
-                        <p class="ml-3 text-sm">"Exploring Machine Learning for Web"</p>
+                        <p class="ml-3 text-sm ">"Exploring Machine Learning for Web"</p>
                     </div>
                     <!-- Step 2 -->
-                    <div class="flex items-center mb-4">
+                    <div class="flex items-center mb-4 rendery">
                         <div
                             class="rounded-full bg-blue-400 w-10 h-10 flex items-center justify-center text-white text-base">
                             02 </div>
                         <p class="ml-3 text-sm">"Mastering Blender for 3D Animations"</p>
                     </div>
                     <!-- Step 3 -->
-                    <div class="flex items-center mb-4">
+                    <div class="flex items-center mb-4 rendery">
                         <div
                             class="rounded-full bg-blue-300 w-10 h-10 flex items-center justify-center text-white text-base">
                             03 </div>
                         <p class="ml-3 text-sm">"Elevating Websites with Three.js"</p>
                     </div>
                     <!-- Step 4 -->
-                    <div class="flex items-center mb-4">
+                    <div class="flex items-center mb-4 rendery">
                         <div
                             class="rounded-full bg-blue-200 w-10 h-10 flex items-center justify-center text-white text-base">
                             04 </div>
                         <p class="ml-3 text-sm">"Boosting Website Traffic with SEO" </p>
                     </div>
                     <!-- Step 5 -->
-                    <div class="flex items-center mb-4">
+                    <div class="flex items-center mb-4 rendery">
                         <div
                             class="rounded-full bg-blue-100 w-10 h-10 flex items-center justify-center text-white text-base">
                             05 </div>
@@ -133,7 +186,7 @@
             </div>
         </section>
         <h2 class="mt-13 flex text-center justify-center">My other expertise and Hobbies</h2>
-        <section class="lg:flex lg:flex-row lg:justify-around">
+        <section class="lg:flex lg:flex-row lg:justify-around rendery">
             <img class="mt-10 lg:w-[30rem]" src="./charts.png" alt="">
             <div class=" doslide hidden w-full lg:block text-gray-200 relative left-[47vw] text-lg">Slide--></div>
             <div class=" scrolling overflow-x-scroll flex scroll-smooth snap-x snap-mandatory mt-11 mx-3 bg-none">
@@ -166,7 +219,7 @@
                 </div>
             </div>
         </section>
-        <section class="mt-16 mx-4 lg:mx-2 mb-5">
+        <section class="mt-16 mx-4 lg:mx-2 mb-5 rendery">
             <div class="w-full max-w-md mx-auto space-y-4">
                 <!-- Accordion Item 1 -->
                 <div class="border border-gray-300 rounded-lg">
@@ -218,7 +271,7 @@
             </div>
         </section>
         <h2 class="flex justify-center mt-[5rem] lg:mt-[6rem]">Pricing Plan</h2>
-        <section class=" mt-10 mb-[5vh] flex items-center lg:items-start flex-col lg:flex-row justify-around">
+        <section class=" mt-10 mb-[5vh] flex items-center lg:items-start flex-col lg:flex-row justify-around ">
             <div class="beginner h-[60vh] w-[80%] lg:w-[30%] rounded-2xl shadow-2xl shadow-gray-500">
                 <h6 class="mt-2 flex justify-center">Beginner Level</h6>
                 <hr class="text-gray-600 z-10 w-[70vw] lg:w-[27vw] h-1 relative left-4">
