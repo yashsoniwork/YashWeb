@@ -11,16 +11,19 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-
-.left-c::-webkit-scrollbar {
-    display: none;
-}
-.scrolling::-webkit-scrollbar {
+.left-s::-webkit-scrollbar {
     display: none;
 }
 
-.doslide:disabled {
-    color: gray;
+.smallbox {
+    box-shadow: 4px 5px 11px white;
+    perspective: 1000;
+    transition: transform 0.5s ease; /* Smooth transition for 3D effect */
+}
+
+.content {
+    transition: opacity 0.5s ease; /* Smooth fade effect for content */
+    opacity: 1; /* Initial state */
 }
 
 .rendered {
