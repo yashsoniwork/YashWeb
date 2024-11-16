@@ -36,7 +36,9 @@ body::-webkit-scrollbar {
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
 }
-
+.links {
+    text-decoration: none;
+}
 @keyframes rendery {
     0% {
         transform: translateY(300px);
